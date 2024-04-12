@@ -5,6 +5,14 @@
 
 ### Methodology
 - Import necessary libraries
+```
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import time
+import threading, multiprocessing
+```
+
 - Created a function to generate random matrices of order 1000*1000
 ```
 def random_matrix():
@@ -69,7 +77,13 @@ for i in range(1,9):
     t=threadfn(i)
     add_data(i, int(t))
 ```
+- Displaying the results
 
+
+
+ ![image](https://github.com/IkjotSingh221/MultiThreadingPython/assets/91063550/8f80915f-df58-470a-91ee-dee142952261)
+ 
+ 
 - Plotting the results
 
 
