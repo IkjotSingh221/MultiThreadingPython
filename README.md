@@ -1,9 +1,5 @@
 # MultiThreadingPython
-## Ikjot Singh
-## 102116071
-## 3CS11
-
-### Methodology
+## Methodology
 - Import necessary libraries
 ```
 import numpy as np
